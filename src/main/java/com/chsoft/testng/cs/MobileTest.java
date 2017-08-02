@@ -1,4 +1,4 @@
-package com.chsoft.testng.test;
+package com.chsoft.testng.cs;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
