@@ -19,7 +19,7 @@ public class TestSpring extends AbstractTestNGSpringContextTests {
 	BrowserService browserService;
 	
 	@Test
-	void testEmailGenerator() {
+	void testDB() {
 		List<Browser> list = browserService.getList();
 		Assert.assertEquals(list.size(), 5);
 	}
